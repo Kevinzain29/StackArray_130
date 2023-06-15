@@ -67,6 +67,16 @@ int main()
 		cout << "4. exit\n";
 		cout << "\nenter your choice: ";
 		string input;
+		getline(cin, input);
+		char ch = (input.empty() ? '0' : input[0]);
+		switch (ch) {
+		case '1': {
+			cout << "\nenter a element: ";
+			string element;
+			getline(cin, element);
+			s.push();
+			break;
+		}
 }
 
 
